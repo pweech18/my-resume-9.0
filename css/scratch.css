@@ -1,0 +1,77 @@
+/* Overall layout and structure */
+body {
+    background-color: #f5f5f5;
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: black;
+  }
+  
+  /* Common styling for sections */
+  .common {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Specific section backgrounds or styles */
+  .header {
+    background-color: gray;
+    color: black;
+  }
+  
+  .mainbody {
+    background-color: whitesmoke;
+  }
+  
+  .image-section {
+    background-image: url("https://images.unsplash.com/photo-1508610048659-a06eaaed4cbd");
+    background-size: cover;
+    background-position: center;
+    color: black;
+  }
+  
+  .video-section {
+    background-color: #04daf7;
+  }
+  
+  .tableau-section {
+    background-color: gray;
+  }
+
+.tableau-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  /* Main image styling */
+  .main-image {
+    width: 80%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+
+  .list-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .list-wrapper ol {
+    text-align: left;
+  }
+  
+
+  /* Anchor and nav links */
+  a {
+    color: #007acc;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
